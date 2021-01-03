@@ -28,4 +28,10 @@
     });
   });
 
+  let co = document.querySelector('.wrapper');
+
+window.addEventListener('load', function (e){
+               co.parentElement.removeChild(co);
+});
+
 
